@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FarmSafety_DEMO", "FarmSafety_DEMO.sqlproj", "{ACF4F3B9-B5B6-4338-8209-0F4E9CF1991B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDatabaseUnitTests", "..\SqlDatabaseUnitTests\SqlDatabaseUnitTests.csproj", "{631E4446-6ADC-4520-8C1E-19A78940ACB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF4F3B9-B5B6-4338-8209-0F4E9CF1991B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF4F3B9-B5B6-4338-8209-0F4E9CF1991B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF4F3B9-B5B6-4338-8209-0F4E9CF1991B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ACF4F3B9-B5B6-4338-8209-0F4E9CF1991B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF4F3B9-B5B6-4338-8209-0F4E9CF1991B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF4F3B9-B5B6-4338-8209-0F4E9CF1991B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{631E4446-6ADC-4520-8C1E-19A78940ACB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631E4446-6ADC-4520-8C1E-19A78940ACB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631E4446-6ADC-4520-8C1E-19A78940ACB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631E4446-6ADC-4520-8C1E-19A78940ACB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BF271E8-BAED-43E2-9182-5DA4F8961CAE}
+	EndGlobalSection
+EndGlobal

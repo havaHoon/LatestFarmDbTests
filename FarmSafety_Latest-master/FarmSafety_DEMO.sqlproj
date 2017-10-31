@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>FarmSafety_DEMO</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{acf4f3b9-b5b6-4338-8209-0f4e9cf1991b}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>FarmSafety_DEMO</RootNamespace>
+    <AssemblyName>FarmSafety_DEMO</AssemblyName>
+    <ModelCollation>1033,CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <DefaultCollation>Latin1_General_CI_AS</DefaultCollation>
+    <DefaultFilegroup>PRIMARY</DefaultFilegroup>
+    <DacVersion>1.0.0.1</DacVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Payment.sql" />
+    <Build Include="dbo\Tables\PaymentResult.sql" />
+    <Build Include="dbo\Tables\PromoCode.sql" />
+    <Build Include="dbo\Tables\PushNotificationTask.sql" />
+    <Build Include="dbo\Tables\RecreationRole.sql" />
+    <Build Include="dbo\Tables\Risk.sql" />
+    <Build Include="dbo\Tables\RiskAudit.sql" />
+    <Build Include="dbo\Tables\RiskImage.sql" />
+    <Build Include="dbo\Tables\AlertEvent.sql" />
+    <Build Include="dbo\Tables\RiskMitigation.sql" />
+    <Build Include="dbo\Tables\ApplicationRole.sql" />
+    <Build Include="dbo\Tables\RiskReportEvent.sql" />
+    <Build Include="dbo\Tables\ApplicationUser.sql" />
+    <Build Include="dbo\Tables\RiskReportImage.sql" />
+    <Build Include="dbo\Tables\ApplicationUserClaim.sql" />
+    <Build Include="dbo\Tables\RiskSuggestedMitigation.sql" />
+    <Build Include="dbo\Tables\ApplicationUserLogin.sql" />
+    <Build Include="dbo\Tables\RiskTemplateFarmType.sql" />
+    <Build Include="dbo\Tables\ApplicationUserRole.sql" />
+    <Build Include="dbo\Tables\RiskTemplateItem.sql" />
+    <Build Include="dbo\Tables\BillPayer.sql" />
+    <Build Include="dbo\Tables\RiskTemplateMitigation.sql" />
+    <Build Include="dbo\Tables\Business.sql" />
+    <Build Include="dbo\Tables\RiskTemplateRiskGroup.sql" />
+    <Build Include="dbo\Tables\BusinessAdminBusiness.sql" />
+    <Build Include="dbo\Tables\SignInEvent.sql" />
+    <Build Include="dbo\Tables\BusinessAdminRole.sql" />
+    <Build Include="dbo\Tables\SignOutEvent.sql" />
+    <Build Include="dbo\Tables\BusinessImage.sql" />
+    <Build Include="dbo\Tables\SystemAdminRole.sql" />
+    <Build Include="dbo\Tables\BusinessProfile.sql" />
+    <Build Include="dbo\Tables\UserCard.sql" />
+    <Build Include="dbo\Tables\BusinessTeamMemberBusiness.sql" />
+    <Build Include="dbo\Tables\UserCardWhitelist.sql" />
+    <Build Include="dbo\Tables\BusinessTeamMemberRole.sql" />
+    <Build Include="dbo\Tables\UserDevice.sql" />
+    <Build Include="dbo\Tables\CasualUseDay.sql" />
+    <Build Include="dbo\Tables\UserLicence.sql" />
+    <Build Include="dbo\Tables\CreateInvoiceTask.sql" />
+    <Build Include="dbo\Tables\UserRole.sql" />
+    <Build Include="dbo\Tables\DiagnosticsLogBatch.sql" />
+    <Build Include="dbo\Tables\UserToken.sql" />
+    <Build Include="dbo\Tables\EmailProcessingTask.sql" />
+    <Build Include="dbo\Tables\EnterFarmEvent.sql" />
+    <Build Include="dbo\Tables\ExitFarmEvent.sql" />
+    <Build Include="dbo\Tables\Farm.sql" />
+    <Build Include="dbo\Tables\FarmAdminFarm.sql" />
+    <Build Include="dbo\Tables\FarmAdminRole.sql" />
+    <Build Include="dbo\Tables\FarmEmergencyLocation.sql" />
+    <Build Include="dbo\Tables\FarmEmergencyPlan.sql" />
+    <Build Include="dbo\Tables\FarmEvent.sql" />
+    <Build Include="dbo\Tables\FarmExpiryProcessingTask.sql" />
+    <Build Include="dbo\Tables\FarmImage.sql" />
+    <Build Include="dbo\Tables\FarmLocation.sql" />
+    <Build Include="dbo\Tables\FarmLocationNeighbour.sql" />
+    <Build Include="dbo\Tables\FarmLocationProcessingTask.sql" />
+    <Build Include="dbo\Tables\FarmProfile.sql" />
+    <Build Include="dbo\Tables\FarmTeamMemberFarm.sql" />
+    <Build Include="dbo\Tables\FarmTeamMemberRole.sql" />
+    <Build Include="dbo\Tables\FtpDownloadProcessingTask.sql" />
+    <Build Include="dbo\Tables\FtpUploadProcessingTask.sql" />
+    <Build Include="dbo\Tables\HeartbeatPulseStatus.sql" />
+    <Build Include="dbo\Tables\ImageEntity.sql" />
+    <Build Include="dbo\Tables\ImageProcessingTask.sql" />
+    <Build Include="dbo\Tables\Incident.sql" />
+    <Build Include="dbo\Tables\IncidentAudit.sql" />
+    <Build Include="dbo\Tables\IncidentImage.sql" />
+    <Build Include="dbo\Tables\IncidentMitigation.sql" />
+    <Build Include="dbo\Tables\IncidentReportEvent.sql" />
+    <Build Include="dbo\Tables\IncidentReportImage.sql" />
+    <Build Include="dbo\Tables\Induction.sql" />
+    <Build Include="dbo\Tables\InductionEvent.sql" />
+    <Build Include="dbo\Tables\InitialisationStep.sql" />
+    <Build Include="dbo\Tables\InvoicePaymentTask.sql" />
+    <Build Include="dbo\Tables\LicenceDetailLine.sql" />
+    <Build Include="dbo\Tables\LicenceDetailUserRelationship.sql" />
+    <Build Include="dbo\Tables\LicenceEntity.sql" />
+    <Build Include="dbo\Tables\LicenceEntityJoin.sql" />
+    <Build Include="dbo\Tables\LicenceInvoice.sql" />
+    <Build Include="dbo\Tables\LicenceTemplate.sql" />
+    <Build Include="dbo\Tables\ModelEntityAudit.sql" />
+    <Build Include="dbo\Tables\OAuthClient.sql" />
+    <Build Include="dbo\Tables\OAuthRefreshToken.sql" />
+    <Build Include="dbo\Tables\OnSideStatus.sql" />
+    <Build Include="dbo\Stored Procedures\spLetsFindRiskStuff.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FarmSafety_DEMO.DEV.publish.xml">
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
+    </None>
+    <None Include="FarmSafety_DEMO.INTEGRATION.publish.xml">
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
+    </None>
+    <None Include="FarmSafety_DEMO.BUILD.publish.xml">
+      <CopyToOutputDirectory>DoNotCopy</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

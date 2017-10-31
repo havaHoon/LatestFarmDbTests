@@ -1,0 +1,13 @@
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\SqlDatabaseUnitTests.dll.config
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\SqlDatabaseUnitTests.dll
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\SqlDatabaseUnitTests.pdb
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.csproj.CoreCompileInputs.cache
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.dll
+C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.pdb

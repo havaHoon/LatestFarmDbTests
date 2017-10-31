@@ -11,3 +11,17 @@ C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\
 C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.csproj.CoreCompileInputs.cache
 C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.dll
 C:\Users\cnwdr2\Downloads\FarmSafety_Latest-master (1)\FarmSafety_Latest-master\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.pdb
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\SqlDatabaseUnitTests.dll.config
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\SqlDatabaseUnitTests.dll
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\SqlDatabaseUnitTests.pdb
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.csprojResolveAssemblyReference.cache
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.csproj.CoreCompileInputs.cache
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.dll
+C:\Dev\Farm_Safety_DEMO_Source-master\LatestFarmDbTests\SqlDatabaseUnitTests\obj\Debug\SqlDatabaseUnitTests.pdb
